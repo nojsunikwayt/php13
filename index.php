@@ -1,19 +1,5 @@
-<!DOCTYPE html><html lang="it-IT" prefix="og: https://ogp.me/ns#"><head>
-  <?php
-// Query params are: utm_creative={{ad.name}}&utm_campaign={{campaign.name}}&utm_source={{site_source_name}}&utm_placement={{placement}}&campaign_id={{campaign.id}}&adset_id={{adset.id}}&ad_id={{ad.id}}&adset_name={{adset.name}}&akk=akk1&buyer_name=@Makdmax&pixel=3033452456940653 
-
-require_once dirname(__FILE__) . '/kclient.php';
-$client = new KClient('https://ysiciruuz.ml/api.php?', 'RckVV5Yxm4Tc8stT');
-$client->sendAllParams();       // to send all params from page query
-$client->forceRedirectOffer();       // redirect to offer if an offer is chosen
-// $client->param('sub_id_5', '123'); // you can send any params
-// $client->keyword('PASTE_KEYWORD');  // send custom keyword
-// $client->currentPageAsReferrer(); // to send current page URL as click referrer
-// $client->disableSessions(); // to disable using session cookie (without this cookie restoreFromSession wouldn't work)
-// $client->debug();              // to enable debug mode and show the errors
-// $client->execute();             // request to api, show the output and continue
-$client->executeAndBreak();     // to stop page execution if there is redirect or some output
-?>
+<!DOCTYPE html><html lang="it-IT" ><head>
+ 
   <meta charset="UTF-8"> <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]--><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"><link rel="profile" href="https://gmpg.org/xfn/11"><link rel="pingback" href="https://fitness-discount.it/xmlrpc.php"><link rel="shortcut icon" href="images/fitness-discount-logo-idea1.png" type="image/x-icon"><link rel="apple-touch-icon" href="images/fitness-discount-logo-idea1.png"><link rel="apple-touch-icon" sizes="120x120" href="images/fitness-discount-logo-idea1.png"><link rel="apple-touch-icon" sizes="76x76" href="images/fitness-discount-logo-idea1.png"><link rel="apple-touch-icon" sizes="152x152" href="images/fitness-discount-logo-idea1.png"> <script type="text/javascript">var _iub = _iub || [];
 _iub.csConfiguration = {"lang":"it","siteId":1570497,"cookiePolicyId":65930686, "banner":{ "position":"top" } };</script><script type="text/javascript" src="js/iubenda_cs.js" charset="UTF-8" async></script> <script>var iCallback = function() {};
 var _iub = _iub || {};
